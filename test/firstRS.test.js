@@ -8,10 +8,6 @@ test('[TEST] firstRS.js', function(t){
 
   var wsMock = '';
 
-  // rs.push('oh ');
-  // rs.push('hey');
-  // rs.push(null);
-
   rs.on('data', function(chunk){
     wsMock += chunk;
   });
