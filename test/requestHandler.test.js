@@ -17,7 +17,6 @@ test('requestHandler.js', function(t){
       server.close();
       t.comment('Test server shutting down');
     });
-    
   });
 
   t.end();
