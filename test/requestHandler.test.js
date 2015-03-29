@@ -20,9 +20,5 @@ test('requestHandler.js', function(t){
     
   });
 
-  t.pass('It should pass the `pass` method');
-  t.ok(true, '`true` should be truthy');
-
-
   t.end();
 });

@@ -9,6 +9,9 @@
   "scripts": {
     "test": "node test.config.js test/*.js | faucet"
   },
+  "pre-commit": [
+    "test"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/joshWyatt/stream-handbook-substack.git"
@@ -21,6 +24,7 @@
   "homepage": "https://github.com/joshWyatt/stream-handbook-substack",
   "devDependencies": {
     "faucet": "0.0.1",
+    "pre-commit": "^1.0.6",
     "request": "^2.54.0",
     "tape": "^3.5.0",
     "tape-catch": "^1.0.4"
