@@ -1,0 +1,28 @@
+{
+  "name": "stream-handbook-substack",
+  "version": "1.0.0",
+  "description": "My work going through substack's stream-handbook",
+  "main": "basic_server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test.config.js test/*.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshWyatt/stream-handbook-substack.git"
+  },
+  "author": "joshWyat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshWyatt/stream-handbook-substack/issues"
+  },
+  "homepage": "https://github.com/joshWyatt/stream-handbook-substack",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "request": "^2.54.0",
+    "tape": "^3.5.0",
+    "tape-catch": "^1.0.4"
+  }
+}
